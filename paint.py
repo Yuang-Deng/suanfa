@@ -19,6 +19,9 @@ for line in nodes:
 
 values = [nodelist.get(node) for node in G.nodes()]
 
+plt.rcParams['savefig.dpi'] = 300 #图片像素
+plt.rcParams['figure.dpi'] = 300 #分辨率
+
 # Need to create a layout when doing
 # separate calls to draw nodes and edges
 # pos = nx.spring_layout(G)
