@@ -4,7 +4,7 @@
 #include <algorithm>
 using namespace std;
 void dfs(int start,vector<vector<int>>& map,vector<bool>& visit,vector<int>& order);
-void mydfs(int start,int count,vector<vector<int>>& map,vector<bool>& visit,vector<int>& order);
+void outputConnectedComponents(int start,int count,vector<vector<int>>& map,vector<bool>& visit);
 //Please put this source code in the same directory with SCC.in
 //And do NOT change the file name.
 /*
@@ -37,22 +37,22 @@ int SCC(int n, vector<pair<int,int> >& edge) {
     for (int i = 0; i < n; ++i) {
         if (!visit[order[i]]){
             count++;
-//            mydfs(order[i],count,map2,visit,bianhao);
-            dfs(order[i],map2,visit,order);
+            outputConnectedComponents(order[i],count,map2,visit);
+//            dfs(order[i],map2,visit,order);
         }
     }
     return count;
 }
 
-void mydfs(int start,int count,vector<vector<int>>& map,vector<bool>& visit,vector<int>& order){
+void outputConnectedComponents(int start,int count,vector<vector<int>>& map,vector<bool>& visit){
     if (visit[start]){
         return;
     }
     visit[start] = true;
+    printf("%d,%d\n",start,count);
     for(int i=0;i<map[start].size();i++){
-        mydfs(map[start][i],count,map,visit,order);
+        outputConnectedComponents(map[start][i],count,map,visit);
     }
-    order[start]=count;
     return;
 }
 
