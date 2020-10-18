@@ -3,4 +3,4 @@ project(suanfa)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(suanfa main.cpp)
+add_executable(suanfa Code-SCC.cpp Code-Egg.cpp)

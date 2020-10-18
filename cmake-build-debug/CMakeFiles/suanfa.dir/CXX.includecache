@@ -6,13 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/Alex/workspace/CLionProjects/suanfa/main.cpp
+/Users/Alex/workspace/CLionProjects/suanfa/Code-Egg.cpp
 vector
 -
 iostream
--
-fstream
--
-algorithm
 -
 

@@ -57,30 +57,45 @@ include CMakeFiles/suanfa.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/suanfa.dir/flags.make
 
-CMakeFiles/suanfa.dir/main.cpp.o: CMakeFiles/suanfa.dir/flags.make
-CMakeFiles/suanfa.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Alex/workspace/CLionProjects/suanfa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/suanfa.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/suanfa.dir/main.cpp.o -c /Users/Alex/workspace/CLionProjects/suanfa/main.cpp
+CMakeFiles/suanfa.dir/Code-SCC.cpp.o: CMakeFiles/suanfa.dir/flags.make
+CMakeFiles/suanfa.dir/Code-SCC.cpp.o: ../Code-SCC.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Alex/workspace/CLionProjects/suanfa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/suanfa.dir/Code-SCC.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/suanfa.dir/Code-SCC.cpp.o -c /Users/Alex/workspace/CLionProjects/suanfa/Code-SCC.cpp
 
-CMakeFiles/suanfa.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/suanfa.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Alex/workspace/CLionProjects/suanfa/main.cpp > CMakeFiles/suanfa.dir/main.cpp.i
+CMakeFiles/suanfa.dir/Code-SCC.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/suanfa.dir/Code-SCC.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Alex/workspace/CLionProjects/suanfa/Code-SCC.cpp > CMakeFiles/suanfa.dir/Code-SCC.cpp.i
 
-CMakeFiles/suanfa.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/suanfa.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Alex/workspace/CLionProjects/suanfa/main.cpp -o CMakeFiles/suanfa.dir/main.cpp.s
+CMakeFiles/suanfa.dir/Code-SCC.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/suanfa.dir/Code-SCC.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Alex/workspace/CLionProjects/suanfa/Code-SCC.cpp -o CMakeFiles/suanfa.dir/Code-SCC.cpp.s
+
+CMakeFiles/suanfa.dir/Code-Egg.cpp.o: CMakeFiles/suanfa.dir/flags.make
+CMakeFiles/suanfa.dir/Code-Egg.cpp.o: ../Code-Egg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Alex/workspace/CLionProjects/suanfa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/suanfa.dir/Code-Egg.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/suanfa.dir/Code-Egg.cpp.o -c /Users/Alex/workspace/CLionProjects/suanfa/Code-Egg.cpp
+
+CMakeFiles/suanfa.dir/Code-Egg.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/suanfa.dir/Code-Egg.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Alex/workspace/CLionProjects/suanfa/Code-Egg.cpp > CMakeFiles/suanfa.dir/Code-Egg.cpp.i
+
+CMakeFiles/suanfa.dir/Code-Egg.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/suanfa.dir/Code-Egg.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Alex/workspace/CLionProjects/suanfa/Code-Egg.cpp -o CMakeFiles/suanfa.dir/Code-Egg.cpp.s
 
 # Object files for target suanfa
 suanfa_OBJECTS = \
-"CMakeFiles/suanfa.dir/main.cpp.o"
+"CMakeFiles/suanfa.dir/Code-SCC.cpp.o" \
+"CMakeFiles/suanfa.dir/Code-Egg.cpp.o"
 
 # External object files for target suanfa
 suanfa_EXTERNAL_OBJECTS =
 
-suanfa: CMakeFiles/suanfa.dir/main.cpp.o
+suanfa: CMakeFiles/suanfa.dir/Code-SCC.cpp.o
+suanfa: CMakeFiles/suanfa.dir/Code-Egg.cpp.o
 suanfa: CMakeFiles/suanfa.dir/build.make
 suanfa: CMakeFiles/suanfa.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Alex/workspace/CLionProjects/suanfa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable suanfa"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Alex/workspace/CLionProjects/suanfa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable suanfa"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/suanfa.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

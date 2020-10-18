@@ -80,7 +80,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/Alex/workspace/CLionProjects/suanfa/main.cpp">
+		<Unit filename="/Users/Alex/workspace/CLionProjects/suanfa/Code-Egg.cpp">
+			<Option target="suanfa"/>
+		</Unit>
+		<Unit filename="/Users/Alex/workspace/CLionProjects/suanfa/Code-SCC.cpp">
 			<Option target="suanfa"/>
 		</Unit>
 		<Unit filename="/Users/Alex/workspace/CLionProjects/suanfa/CMakeLists.txt">

@@ -123,32 +123,59 @@ suanfa/fast:
 	$(MAKE) -f CMakeFiles/suanfa.dir/build.make CMakeFiles/suanfa.dir/build
 .PHONY : suanfa/fast
 
-main.o: main.cpp.o
+Code-Egg.o: Code-Egg.cpp.o
 
-.PHONY : main.o
+.PHONY : Code-Egg.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/suanfa.dir/build.make CMakeFiles/suanfa.dir/main.cpp.o
-.PHONY : main.cpp.o
+Code-Egg.cpp.o:
+	$(MAKE) -f CMakeFiles/suanfa.dir/build.make CMakeFiles/suanfa.dir/Code-Egg.cpp.o
+.PHONY : Code-Egg.cpp.o
 
-main.i: main.cpp.i
+Code-Egg.i: Code-Egg.cpp.i
 
-.PHONY : main.i
+.PHONY : Code-Egg.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/suanfa.dir/build.make CMakeFiles/suanfa.dir/main.cpp.i
-.PHONY : main.cpp.i
+Code-Egg.cpp.i:
+	$(MAKE) -f CMakeFiles/suanfa.dir/build.make CMakeFiles/suanfa.dir/Code-Egg.cpp.i
+.PHONY : Code-Egg.cpp.i
 
-main.s: main.cpp.s
+Code-Egg.s: Code-Egg.cpp.s
 
-.PHONY : main.s
+.PHONY : Code-Egg.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/suanfa.dir/build.make CMakeFiles/suanfa.dir/main.cpp.s
-.PHONY : main.cpp.s
+Code-Egg.cpp.s:
+	$(MAKE) -f CMakeFiles/suanfa.dir/build.make CMakeFiles/suanfa.dir/Code-Egg.cpp.s
+.PHONY : Code-Egg.cpp.s
+
+Code-SCC.o: Code-SCC.cpp.o
+
+.PHONY : Code-SCC.o
+
+# target to build an object file
+Code-SCC.cpp.o:
+	$(MAKE) -f CMakeFiles/suanfa.dir/build.make CMakeFiles/suanfa.dir/Code-SCC.cpp.o
+.PHONY : Code-SCC.cpp.o
+
+Code-SCC.i: Code-SCC.cpp.i
+
+.PHONY : Code-SCC.i
+
+# target to preprocess a source file
+Code-SCC.cpp.i:
+	$(MAKE) -f CMakeFiles/suanfa.dir/build.make CMakeFiles/suanfa.dir/Code-SCC.cpp.i
+.PHONY : Code-SCC.cpp.i
+
+Code-SCC.s: Code-SCC.cpp.s
+
+.PHONY : Code-SCC.s
+
+# target to generate assembly for a file
+Code-SCC.cpp.s:
+	$(MAKE) -f CMakeFiles/suanfa.dir/build.make CMakeFiles/suanfa.dir/Code-SCC.cpp.s
+.PHONY : Code-SCC.cpp.s
 
 # Help Target
 help:
@@ -159,9 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... suanfa"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... Code-Egg.o"
+	@echo "... Code-Egg.i"
+	@echo "... Code-Egg.s"
+	@echo "... Code-SCC.o"
+	@echo "... Code-SCC.i"
+	@echo "... Code-SCC.s"
 .PHONY : help
 
 
